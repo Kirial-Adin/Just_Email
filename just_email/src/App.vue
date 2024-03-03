@@ -9,10 +9,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 const app = createApp()
 app.component('QuillEditor', QuillEditor)
 
-const quill = new Quill('#editor', {
-  placeholder: 'Compose an epic...',
-  theme: 'bubble',
-});
+
 
 // Переменные
 const email = 'randall.johanson@gmail.com';
@@ -57,7 +54,7 @@ function inputEmail() {
 
     <!-- Кнопка выподающего списка -->
     <div class="btn-image" @click="showContent()">
-      <img src="./components/icon/caret-down.svg" alt="">
+      <img src="./assets/icon/caret-down.svg" alt="">
     </div>
 
     <!-- Выподающий список -->
