@@ -18,7 +18,7 @@ const quill = new Quill('#editor', {
 const email = 'randall.johanson@gmail.com';
 let inpEmail = ref('')
 let display = ref('none')
-let displayModal = ref('none')
+
 
 // Логика выпадающего списка
 function showContent() {
