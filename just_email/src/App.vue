@@ -71,21 +71,6 @@ function inputEmail() {
       <div class="send">Send Now</div>
     </div>
 
-    <div class="modal" :style="{display: displayModal}">
-      <button> 
-        <img src="./components/icon/type-bold.svg" class="bold"> 
-      </button>
-      <button>  
-        <img src="./components/icon/type-italic.svg" class="italic">
-      </button>
-      <button>
-        <img src="./components/icon/type-strikethrough.svg" class="strikethrough">
-      </button>
-      <button>
-        <img src="./components/icon/type-underline.svg" class="underline">
-      </button>
-      
-    </div>
 
   </div>
 </template>
