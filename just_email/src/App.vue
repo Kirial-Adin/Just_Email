@@ -12,7 +12,7 @@ app.component('QuillEditor', QuillEditor)
 
 
 // Переменные
-const email = 'randall.johanson@gmail.com';
+const email = ref('randall.johanson@gmail.com');
 let inpEmail = ref('')
 const isShowDD = ref(false)
 
@@ -24,7 +24,7 @@ function showContent() {
 
 // Вставка в input значений
 function inputEmail() {
-  inpEmail.value = 'randall.johanson@gmail.com';
+  inpEmail.value = email.value;
   isShowDD.value = !isShowDD.value
 }
 
