@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { createApp } from 'vue'
-import { QuillEditor,  Quill} from '@vueup/vue-quill'
+import { QuillEditor} from '@vueup/vue-quill'
 import '@vueup/vue-quill/dist/vue-quill.snow.css';
 import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
@@ -14,22 +14,18 @@ app.component('QuillEditor', QuillEditor)
 // Переменные
 const email = 'randall.johanson@gmail.com';
 let inpEmail = ref('')
-let display = ref('none')
+const isShowDD = ref(false)
 
 
 // Логика выпадающего списка
 function showContent() {
-  if (display.value == 'none') {
-    display.value = 'block';
-  } else {
-    display.value = 'none';
-  }
+  isShowDD.value = !isShowDD.value
 } 
 
 // Вставка в input значений
 function inputEmail() {
   inpEmail.value = 'randall.johanson@gmail.com';
-  display.value = 'none';
+  isShowDD.value = !isShowDD.value
 }
 
 
@@ -58,7 +54,7 @@ function inputEmail() {
     </div>
 
     <!-- Выподающий список -->
-    <div class="drop" :style="{display: display}">
+    <div class="drop" v-if="isShowDD" >
       <div class="drop_item" @click="inputEmail()">
         {{ email }}
       </div>
@@ -187,7 +183,7 @@ function inputEmail() {
   border-radius: 32px;
   border: solid #999;
   background-color: #999;
-  display: none;
+  display: block;
   cursor: pointer;
   transform: translate(340px, 90px);
 }
