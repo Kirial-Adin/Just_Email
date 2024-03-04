@@ -1,18 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { QuillEditor} from '@vueup/vue-quill'
-import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 import fromTeme from './components/fromTeme.vue';
-
-
-
-
-
+import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
 </script>
 
 <template >
-  
 
   <div class="border">
 
@@ -25,7 +18,6 @@ import fromTeme from './components/fromTeme.vue';
     <div class="footer">
       <div class="send">Send Now</div>
     </div>
-
 
   </div>
 </template>
