@@ -1,19 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { createApp } from 'vue'
 import { QuillEditor} from '@vueup/vue-quill'
-import '@vueup/vue-quill/dist/vue-quill.snow.css';
 import '@vueup/vue-quill/dist/vue-quill.bubble.css';
-
-// создание эдитора
-const app = createApp()
-app.component('QuillEditor', QuillEditor)
-
 
 
 // Переменные
 const email = ref('randall.johanson@gmail.com');
-let inpEmail = ref('')
+const inpEmail = ref('')
 const isShowDD = ref(false)
 
 
