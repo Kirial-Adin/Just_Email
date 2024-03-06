@@ -36,7 +36,6 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 }
 
 
-
 .footer {
   position: absolute;
   width: 600px;
@@ -64,16 +63,6 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
   padding: 8px;
   color: #fff;
 }
-
-.btn-image{
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  cursor: pointer;
-  transform: translate(430px, 77px);
-}
-
-
 
 .editor{
   position: absolute;
