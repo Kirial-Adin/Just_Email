@@ -28,7 +28,9 @@ function inputEmail() {
 
     <!-- Кнопка выподающего списка -->
     <div class="btn-image" @click="showContent()">
-      <img src="./assets/icon/caret-down.svg" alt="">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+        <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+      </svg>
     </div>
 
     <!-- Выподающий список -->
@@ -98,6 +100,16 @@ function inputEmail() {
 
 .from:focus, .theme:focus {
   outline: none;
+}
+
+.btn-image{
+  color: black;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  width: fit-content;
+  transform: translate(430px, 77px);
 }
 
 .drop{
