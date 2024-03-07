@@ -28,7 +28,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
   top: 200px;
   left: 555px;
   border: 5px solid #fff;
-  width: 31.3%;
+  width: 600px;
   height: 600px;
   border-radius: 32px;
   background-color: #fff;
@@ -37,7 +37,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
 
 .footer {
-  width: 101.7%;
+  width: 600px;
   height: 60px;
   border-radius: 32px;
   border-top-left-radius: 0px;
@@ -50,8 +50,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 }
 
 .send {
-  display: flex;
-  justify-content: center;
+  position: relative;
   border: 3px solid black;
   border-radius: 32px;
   background-color: black;
