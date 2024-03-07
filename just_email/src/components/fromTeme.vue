@@ -43,39 +43,43 @@ function inputEmail() {
 
 <style scoped>
 .line{
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
   top: 0px;
   left: 0px;
   border: 1px solid #999;
   width: 555px;
-  transform: translate(20px, 100px);
+  transform: translate(20px, 80px);
 }
 
 .line2{
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
   top: 10px;
   left: 0px;
   border: 1px solid #999;
   width: 555px;
-  transform: translate(20px, 150px);
+  transform: translate(20px, 130px);
 }
 
 .froma {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: #52525b;
-  transform: translate(20px,67px);
+  transform: translate(19px,-8px);
 }
 
 .from {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(110px,73px);
-  width: 300px;
+  display: flex;
+  justify-content: center;
+  width: fit-content; 
+  transform: translate(90px,50px);
+  width: 370px;
   border: 1px none silver;
   border-radius: 16px;
   cursor: text;
@@ -85,11 +89,11 @@ function inputEmail() {
 }
 
 .theme {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(20px,121px);
-  width: 470px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  transform: translate(20px,95px);
+  width: 550px;
   border: 1px none silver;
   border-radius: 16px;
   cursor: text;
@@ -109,18 +113,19 @@ function inputEmail() {
   overflow: hidden;
   cursor: pointer;
   width: fit-content;
-  transform: translate(430px, 77px);
+  transform: translate(470px, -28px);
 }
 
 .drop{
-  position: absolute;
+  display: flex;
+  justify-content: center;
   width: 220px;
   border-radius: 32px;
   border: solid #999;
   background-color: #999;
   display: block;
   cursor: pointer;
-  transform: translate(340px, 90px);
+  transform: translate(370px, -10px);
 }
 
 .drop_item {
