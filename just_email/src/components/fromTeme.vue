@@ -42,23 +42,20 @@ function inputEmail() {
 </template>
 
 <style scoped>
-.line{
+.line, .line2{
   display: flex;
   justify-content: center;
   top: 0px;
   left: 0px;
   border: 1px solid #999;
   width: 555px;
+}
+
+.line {
   transform: translate(20px, 80px);
 }
 
 .line2{
-  display: flex;
-  justify-content: center;
-  top: 10px;
-  left: 0px;
-  border: 1px solid #999;
-  width: 555px;
   transform: translate(20px, 130px);
 }
 
