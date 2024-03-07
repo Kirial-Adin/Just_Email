@@ -117,8 +117,7 @@ function inputEmail() {
 }
 
 .drop{
-  display: flex;
-  justify-content: center;
+  position: absolute;
   width: 220px;
   border-radius: 32px;
   border: solid #999;
