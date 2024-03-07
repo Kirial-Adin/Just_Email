@@ -50,7 +50,8 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 }
 
 .send {
-  position: relative;
+  display: flex;
+  justify-content: center;
   border: 3px solid black;
   border-radius: 32px;
   background-color: black;
