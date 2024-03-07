@@ -13,7 +13,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
       <QuillEditor theme="bubble"  toolbar="essential"/>
     </div>
 
-    <fromTeme></fromTeme>
+    <fromTeme />
   
     <div class="footer">
       <div class="send">Send Now</div>
