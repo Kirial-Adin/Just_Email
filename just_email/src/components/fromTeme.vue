@@ -45,7 +45,6 @@ function inputEmail() {
 .line{
   display: flex;
   justify-content: center;
-  width: fit-content;
   top: 0px;
   left: 0px;
   border: 1px solid #999;
@@ -56,7 +55,6 @@ function inputEmail() {
 .line2{
   display: flex;
   justify-content: center;
-  width: fit-content;
   top: 10px;
   left: 0px;
   border: 1px solid #999;
@@ -77,7 +75,6 @@ function inputEmail() {
 .from {
   display: flex;
   justify-content: center;
-  width: fit-content; 
   transform: translate(90px,50px);
   width: 370px;
   border: 1px none silver;
@@ -91,7 +88,6 @@ function inputEmail() {
 .theme {
   display: flex;
   justify-content: center;
-  width: fit-content;
   transform: translate(20px,95px);
   width: 550px;
   border: 1px none silver;
