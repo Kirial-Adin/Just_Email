@@ -37,7 +37,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
 
 .footer {
-  position: absolute;
+  position: relative;
   width: 600px;
   height: 60px;
   border-radius: 32px;
