@@ -37,7 +37,6 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
 
 .footer {
-  position: relative;
   width: 600px;
   height: 60px;
   border-radius: 32px;
@@ -45,7 +44,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
   border-top-right-radius: 0px;
   border: 2px solid rgb(221, 218, 218);
   background-color: rgb(221, 218, 218);
-  transform: translate(-4.4px, 540px);
+  transform: translate(-4.4px, 445px);
   display: flex;
   justify-content: center;
 }
