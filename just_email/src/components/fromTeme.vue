@@ -45,18 +45,16 @@ function inputEmail() {
 .line, .line2{
   display: flex;
   justify-content: center;
-  top: 0px;
-  left: 0px;
   border: 1px solid #999;
   width: 555px;
 }
 
 .line {
-  transform: translate(20px, 80px);
+  transform: translate(20px, -310px);
 }
 
 .line2{
-  transform: translate(20px, 130px);
+  transform: translate(20px, -260px);
 }
 
 .froma {
@@ -66,13 +64,13 @@ function inputEmail() {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: #52525b;
-  transform: translate(19px,-8px);
+  transform: translate(19px,-400px);
 }
 
 .from {
   display: flex;
   justify-content: center;
-  transform: translate(90px,50px);
+  transform: translate(90px,-340px);
   width: 370px;
   border: 1px none silver;
   border-radius: 16px;
@@ -85,7 +83,7 @@ function inputEmail() {
 .theme {
   display: flex;
   justify-content: center;
-  transform: translate(20px,95px);
+  transform: translate(20px, -300px);
   width: 550px;
   border: 1px none silver;
   border-radius: 16px;
@@ -100,30 +98,30 @@ function inputEmail() {
 }
 
 .btn-image{
-  color: black;
   display: flex;
   justify-content: center;
+  color: black;
   overflow: hidden;
   cursor: pointer;
   width: fit-content;
-  transform: translate(470px, -28px);
+  transform: translate(470px, -423px);
 }
 
 .drop{
+  display: block;
   position: absolute;
   width: 220px;
   border-radius: 32px;
   border: solid #999;
   background-color: #999;
-  display: block;
   cursor: pointer;
-  transform: translate(370px, -10px);
+  transform: translate(370px, -410px);
 }
 
 .drop_item {
-  color: black;
   display: flex;
-  justify-content: center;
+  justify-content: center;  
+  color: black;
 }
 
 .drop :hover {
