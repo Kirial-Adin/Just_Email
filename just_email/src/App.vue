@@ -16,7 +16,7 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
     <fromTeme />
   
     <div class="footer">
-      <div class="send">Send Now</div>
+      <button class="send">Send Now</button>
     </div>
 
   </div>
@@ -26,18 +26,17 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 .border {
   display: block;
   justify-content: center;
-  top: 200px;
-  left: 555px;
   border: 5px solid #fff;
-  max-width: 600px;
+  width: 600px;
   height: 600px;
   border-radius: 32px;
   background-color: #fff;
-  transform: translate(100px);
 }
 
 
 .footer {
+  display: flex;
+  justify-content: center;
   width: 600px;
   height: 60px;
   border-radius: 32px;
@@ -45,9 +44,8 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
   border-top-right-radius: 0px;
   border: 2px solid rgb(221, 218, 218);
   background-color: rgb(221, 218, 218);
-  transform: translate(-4.4px, 445px);
-  display: flex;
-  justify-content: center;
+  transform: translate(-4.4px, 90px);
+
 }
 
 .send {
@@ -65,9 +63,10 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 }
 
 .editor{
-  position: absolute;
+  display: block;
+  justify-content: center;
   color:  #000;
-  transform: translate(10px, 170px);
+  transform: translate(5px, 170px);
   border: 1px none #999;
   width:  580px;
   height: 370px;
