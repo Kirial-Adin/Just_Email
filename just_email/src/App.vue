@@ -24,11 +24,12 @@ import '@vueup/vue-quill/dist/vue-quill.bubble.css';
 
 <style scoped>
 .border {
-  position: absolute;
+  display: block;
+  justify-content: center;
   top: 200px;
   left: 555px;
   border: 5px solid #fff;
-  width: 600px;
+  max-width: 600px;
   height: 600px;
   border-radius: 32px;
   background-color: #fff;
